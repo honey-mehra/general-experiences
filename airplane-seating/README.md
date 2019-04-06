@@ -6,12 +6,12 @@ The plane seating is in following format:
 2. Each row has seats in block of three, block of four and another block of three
 
 Eg      A B C    D E G H   J K L
-     
-Row 1       X        X
+   
+Row 1
 
 Row 2
 
-Row 3            X                
+Row 3               
 
 We are given number of rows in a plane as an int variable.
 And the seats that are already occupied as a String separated by space characters:
