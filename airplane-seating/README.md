@@ -5,7 +5,7 @@ The plane seating is in following format:
 1. There are 'N' rows in planes
 2. Each row has seats in block of three, block of four and another block of three
 
-Eg      A B C    D E G H   J K L
+Eg              A B C    D E G H   J K L
    
 Row 1
 
