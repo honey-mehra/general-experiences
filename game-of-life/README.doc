@@ -1,0 +1,13 @@
+This project consist of GameOfLife application and the implementation of the same.
+
+
+Structure:
+
+- We have created a class GameOfLife which consists of a m*n board.
+- The board has been made up using Cell object and all cells in the board are initialized to DEAD using Enum State.
+- A Cell object has a state and a future state which are enums of type State (DEAD or ALIVE).
+- When the rules of the game are run on an individual cell, it stores the next generation of the cell in futureState attribute.
+- In nextGenertion we compute count of live neighbors of all cells on the board. Using the rules of the game and neighbor count we store the future state of the cell in futureState attribute.
+- After nextGeneration API has been invoked on all cells on the board, we call refreshBoard which replaces the state of all cells with their futureState and thus this futureState becomes the current state.
+- We also mark the futureState after above step as DEAD(0) for all cells in the board.
+- The above process is repeated number of times we want the game to be played.
